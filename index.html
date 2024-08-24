@@ -78,7 +78,9 @@
         <div
           class="flex flex-col items-center justify-center lg:py-32 py-14 space-y-4 lg:w-3/5 w-11/12 mx-auto text-center"
         >
-          <h3 class="text-white font-eb-garamond text-7xl font-bold">
+          <h3
+            class="text-white font-eb-garamond lg:text-7xl text-4xl font-bold"
+          >
             We Provide Effective Legal Solutions
           </h3>
           <p class="text-gray-400 font-normal font-poppins">
@@ -221,7 +223,7 @@
             <div id="slide1" class="carousel-item relative w-full">
               <img src="images/banner.png" class="w-full opacity-95" />
               <div
-                class="absolute inset-0 flex flex-col items-center justify-center w-3/4 mx-auto text-center space-y-3 p-6"
+                class="absolute inset-0 flex flex-col items-center justify-center w-3/4 mx-auto text-center space-y-3"
               >
                 <h2
                   class="text-4xl text-white bg-black bg-opacity-50 p-4 rounded"
@@ -436,7 +438,7 @@
           </p>
         </div>
         <div class="flex lg:flex-row flex-col items-center gap-10 mt-10">
-          <div class="grid grid-cols-2 w-full flex-1">
+          <div class="grid md:grid-cols-2 grid-cols-1 w-full flex-1">
             <div
               class="bg-gray-200 p-10 flex flex-col items-center border-r-2 border-b-2 border-[#cfcfce]"
             >
@@ -446,24 +448,26 @@
               <p class="font-poppinss">New York, NY 535022</p>
             </div>
             <div class="bg-gray-200 p-10 flex flex-col items-center">
-              <img class="mb-2" src="images/location.png" alt="" />
-              <h4 class="mb-2 text-2xl font-bold font-eb-garamond">Address</h4>
-              <p class="font-poppins">A108 Adam Street,</p>
-              <p class="font-poppinss">New York, NY 535022</p>
+              <img class="mb-2" src="images/call.png" alt="" />
+              <h4 class="mb-2 text-2xl font-bold font-eb-garamond">Call Us</h4>
+              <p class="font-poppins">+88 01750 00 00 00</p>
+              <p class="font-poppinss">+88 01750 00 00 00</p>
             </div>
             <div class="bg-gray-200 p-10 flex flex-col items-center">
-              <img class="mb-2" src="images/location.png" alt="" />
-              <h4 class="mb-2 text-2xl font-bold font-eb-garamond">Address</h4>
-              <p class="font-poppins">A108 Adam Street,</p>
-              <p class="font-poppinss">New York, NY 535022</p>
+              <img class="mb-2" src="images/email.png" alt="" />
+              <h4 class="mb-2 text-2xl font-bold font-eb-garamond">Email Us</h4>
+              <p class="font-poppins">info@gmail.com</p>
+              <p class="font-poppinss">info@gmail.com</p>
             </div>
             <div
               class="bg-gray-200 p-10 flex flex-col items-center border-l-2 border-t-2 border-[#cfcfce]"
             >
-              <img class="mb-2" src="images/location.png" alt="" />
-              <h4 class="mb-2 text-2xl font-bold font-eb-garamond">Address</h4>
-              <p class="font-poppins">A108 Adam Street,</p>
-              <p class="font-poppinss">New York, NY 535022</p>
+              <img class="mb-2" src="images/time.png" alt="" />
+              <h4 class="mb-2 text-2xl font-bold font-eb-garamond">
+                Working Hours
+              </h4>
+              <p class="font-poppins">Mon-Fri: 9AM to 5PM</p>
+              <p class="font-poppinss">Sunday: 9AM to 1 PM</p>
             </div>
           </div>
           <div class="flex-1 space-y-4 font-poppins">
@@ -497,6 +501,66 @@
       </section>
     </main>
     <!-------------------- footer ---------------->
-    <footer></footer>
+    <footer class="bg-black mt-10 py-10 lg:py-16">
+      <div class="lg:container mx-auto w-11/12">
+        <div class="grid gap-8 lg:grid-cols-4 grid-cols-1">
+          <div>
+            <div class="flex items-center gap-2 mb-3">
+              <img class="w-8 h-8" src="images/business.png" alt="" />
+              <a class="text-4xl font-bold font-eb-garamond text-white"
+                >Justice</a
+              >
+            </div>
+            <p class="text-gray-400">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-white font-bold text-2xl mb-2">Usefull Link</h3>
+            <div class="text-gray-400 flex flex-col gap-2">
+              <a href="#">Home</a>
+              <a href="#">About Us</a>
+              <a href="#">Cases</a>
+              <a href="#">Blog</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-white font-bold text-2xl mb-2">Contact Now</h3>
+            <p class="text-gray-300 mb-2">
+              555 4th 5t NW, Washington DC 20530, United States
+            </p>
+            <p class="text-gray-300">+88 01750 000 000</p>
+            <p class="text-gray-300">+88 01750 000 000</p>
+            <a class="text-gray-300">info@gmail.com</a>
+            <br />
+            <a class="text-gray-300">info@gmail.com</a>
+          </div>
+
+          <div>
+            <h3 class="text-white font-bold text-2xl mb-2">Subscribe</h3>
+            <p class="text-gray-300 mb-3">
+              Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+            </p>
+            <div class="flex gap-0">
+              <input
+                class="px-4 py-3 rounded-lg focus:outline-0"
+                type="text"
+                name=""
+                id=""
+                placeholder="Email Address "
+              />
+              <button class="btn bg-[#B68C5A] border-none py-0 px-4">
+                <i class="fa-regular fa-paper-plane text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
